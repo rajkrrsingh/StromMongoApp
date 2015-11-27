@@ -219,10 +219,10 @@ public class TweetTopology {
   {
     TopologyBuilder builder = new TopologyBuilder();
     TweetSpout tweetSpout = new TweetSpout(
-        "JBF9oYAmIwPosU1hAUBqRcntY",
-        "nwLuYoFtC3Pvulx9IHLfJGxBncG9BcXyLpCl2jwa2TablHBzOb",
-        "18528977-1KV01AOASB5cZEkC0aZnR5THwDnU9hEuFBRpS3HVa",
-        "v0kB0oD0TJJxska1VlH87fhBKYiYfYmPfvnoUKgJqDFoI"
+        "customer_key",
+        "secret_key",
+        "access_token",
+        "access_secret"
     );
 
     // attach the tweet spout to the topology - parallelism of 1
